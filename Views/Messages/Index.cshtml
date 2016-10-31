@@ -1,13 +1,14 @@
 ﻿@model IEnumerable<TestApp6.Models.Message>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Chatterbugs!!";
 }
 
-<h2>Index</h2>
+ <div id="messageBody">
+<h2>@ViewBag.Title</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("New Chat", "Create")
 </p>
 <table class="table">
     <tr>
@@ -37,3 +38,4 @@
 }
 
 </table>
+ </div>

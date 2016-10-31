@@ -1,7 +1,9 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
-}
+    }
+
+
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
@@ -21,4 +23,27 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+#chatHeader {
+    text-align: center;
+}
+
+.jumbotron {
+    background-image: url('grass-534873_960_720.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#headline{
+    font-family: 'Coiny', cursive;
+    color:white;
+}
+#buggy{
+    display:block;
+    margin:auto;
+}
+
+#tweetIndex {
+    text-align:center;
+    font-size:26px;
 }
